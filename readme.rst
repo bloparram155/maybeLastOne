@@ -1,70 +1,65 @@
-###################
-What is CodeIgniter
-###################
+############
+Repositorio Integrador 
+############
+Materias Diseño de aplicaciones interactivas, Seguridad informatica, Aplicaciones web.
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+############
+Herramientas
+############
+GIT version 2.16.2<------------- MUST https://windows.php.net/download#php-7.2
+Sublime Text <------------ Optional https://www.sublimetext.com/
+PHP 7.2.4 <------------ MUST https://windows.php.net/download#php-7.2
+Code Igniter <----------- Clonando este repositorio van a tener la version actual.
+xampp
 
-*******************
-Release Information
-*******************
+############
+GIT Stuff
+############
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Para Crearse su user local y email para hacer commit/pulls al repositorio
+git config --global user.name tuUser   <------Para crear user (El que ustedes quieran).
+git config --global user.email tuEmail <------Para crear email (Debe ser el que usen en Github).
 
-**************************
-Changelog and New Features
-**************************
+Una ves que tengan creado su User localmente deben de clonar el repositorio en xampp/htdocs:
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+git clone https://github.com/bloparram155/maybeLastOne.git <----- Para clonar el repositorio.
 
-*******************
-Server Requirements
-*******************
+Ya que tengan clonado el repositorio MUCHO OJO con el branch en el que esten posicionados, principalmente estaran en (master) se les pone en color verde en GIT. 
 
-PHP version 5.6 or newer is recommended.
+*****
+Para crear su propio branch:
+git checkout -b suBranch
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+Verificar que estan en suBranch y no en Master. Luego deberan de unir su branch al origin:
+git push -u origin suBranch
 
-************
-Installation
-************
+Verifiquen que su branch fue correctamente adherido al origin:
+git branch -a
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+Para realizar cambios en su branch y cargarlos al origin se deben seguir los siguientes pasos:
+git status <------------------- Para verificar los cambios que hicieron al igual que los archivos staged para commitear.
 
-*******
-License
-*******
+git add . <-------------------- Agrega todos los cambios que hicieron.
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+git reset HEAD archivo/ejemplo <------------- Para eliminar el archivo del commit (No elimina el archivo realmente simplemente lo saca del commit).
 
-*********
-Resources
-*********
+git commit -m "Su Mensaje de commit" <--------------Agrega mensaje al commit 
+
+git push <------------ Para hacer push a su branch (Suponiendo que ya lo agregaron al origin).
+
+
+NOTA: SIEMPRE QUE VAYAN HACER PUSH/PULL REVISAR QUE SIEMPRE ESTEN EN EL BRANCH QUE USTEDES CREARON Y NO EN MASTER.
+
+*****
+
+############
+Documentacion Code Igniter
+############
 
 -  `User Guide <https://codeigniter.com/docs>`_
 -  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
 -  `Community Forums <http://forum.codeigniter.com/>`_
 -  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
 -  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+-   Apoyo tutorial series en Youtube https://www.youtube.com/watch?v=I752ofYu7ag&t=1654s
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
