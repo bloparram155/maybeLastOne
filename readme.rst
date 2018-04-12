@@ -47,19 +47,21 @@ git commit -m "Su Mensaje de commit" <--------------Agrega mensaje al commit
 
 git push <------------ Para hacer push a su branch (Suponiendo que ya lo agregaron al origin).
 
+Ya que hicieron su push van al repositorio de Github dan click en la seccion "branches" buscan su branch y dan click en "New pull request".
+Les debe de abrir el form de "Open a pull request" escriben el comentario especificando que cambios hicieron, area, componente, en el panel de la derecha en Reviewer ponen mi user bloparram155. Luego dan click en "Create pull request".
+Una ves que dan click en el boton Create pull request los redirecciona a la seccion "Pull requests", traten de esperar a que le de review a lo que hicieron, si es muy urgente la implementacion que hicieron traten de buscarme por Whatsapp o Inbox y si ya de plano me tarde den click en "Merge pull request" y luego "Confirm Merge".
 
 NOTA: SIEMPRE QUE VAYAN HACER PUSH/PULL REVISAR QUE SIEMPRE ESTEN EN EL BRANCH QUE USTEDES CREARON Y NO EN MASTER.
 
 *****
 
 ############
-Documentacion Code Igniter
+Documentacion Code Igniter y GIT Cheat Sheet
 ############
 
 -  `User Guide <https://codeigniter.com/docs>`_
 -  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
 -  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
--   Apoyo tutorial series en Youtube https://www.youtube.com/watch?v=I752ofYu7ag&t=1654s
+-  `Apoyo tutorial series en Youtube <https://www.youtube.com/watch?v=I752ofYu7ag&t=1654s>`_
+-  `Git Cheat Sheet <https://www.git-tower.com/blog/git-cheat-sheet/>`_
 
