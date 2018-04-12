@@ -27,6 +27,7 @@ git clone https://github.com/bloparram155/maybeLastOne.git <----- Para clonar el
 Ya que tengan clonado el repositorio MUCHO OJO con el branch en el que esten posicionados, principalmente estaran en (master) se les pone en color verde en GIT. 
 
 *****
+
 Para crear su propio branch:
 git checkout -b suBranch
 
@@ -50,6 +51,11 @@ git push <------------ Para hacer push a su branch (Suponiendo que ya lo agregar
 Ya que hicieron su push van al repositorio de Github dan click en la seccion "branches" buscan su branch y dan click en "New pull request".
 Les debe de abrir el form de "Open a pull request" escriben el comentario especificando que cambios hicieron, area, componente, en el panel de la derecha en Reviewer ponen mi user bloparram155. Luego dan click en "Create pull request".
 Una ves que dan click en el boton Create pull request los redirecciona a la seccion "Pull requests", traten de esperar a que le de review a lo que hicieron, si es muy urgente la implementacion que hicieron traten de buscarme por Whatsapp o Inbox y si ya de plano me tarde den click en "Merge pull request" y luego "Confirm Merge".
+
+
+Para actualizar su BRANCH a la version actual del master. NOTA: VERIFIQUEN QUE ESTAN EN SU BRANCH Y NO EN MASTER.
+
+git pull origin master
 
 NOTA: SIEMPRE QUE VAYAN HACER PUSH/PULL REVISAR QUE SIEMPRE ESTEN EN EL BRANCH QUE USTEDES CREARON Y NO EN MASTER.
 
