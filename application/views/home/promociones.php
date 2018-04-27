@@ -2,11 +2,7 @@
     <div class="container">
 
       <div class="row">
-
-        <div class="col-lg-3">
-          
-                     <!--modales-->
-  
+        
                   <div role="dialog" tabindex="-1" class="modal fade" id="modal-freeTreatment" style="max-width:600px;margin-right:auto;margin-left:auto;">
                    <div class="modal-dialog" role="document">
                      <div class="modal-content">    
@@ -66,19 +62,7 @@
                  </div>
                </div>
             </div>
-
-          <h1 class="my-4">Promociones</h1>
-          <div class="list-group">
-            <a href="cursos.html" class="list-group-item">Cursos</a>
-            <a href="Promos.html" class="list-group-item">Promociones</a>
-            <a href="servicios.html" class="list-group-item">Servicios</a>
-            <a href="galeria.html" class="list-group-item">Galeria</a>
-          </div>
-
-        </div>
-        <!-- /.col-lg-3 -->
-
-        <div class="col-lg-9">
+        <div class="col-lg-9 offset-1">
 
           <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
             <ol class="carousel-indicators">
