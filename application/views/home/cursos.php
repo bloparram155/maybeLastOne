@@ -5,6 +5,56 @@
       <div class="row">
 
         <div class="col-lg-3">
+          
+            <!--modales-->
+  
+  <div role="dialog" tabindex="-1" class="modal fade" id="modal-autoMakeUp" style="max-width:600px;margin-right:auto;margin-left:auto;">
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">    
+       <div class="modal-header"> <!-- CABECERA -->
+       
+       <h4 class="text-center modal-title">AUTOMAQUILLAJE TEENS</h4>
+       </div>
+       <div class="modal-body"> <!-- CUERPO DEL MENSAJE -->
+       <img class="card-img-top" src="assets/img/autoteens.jpg" alt="">
+       <p class="card-text"><b>Duración: 3 dias</b></p>
+       <p class="card-text"><b>- Tipo de rostro y piel</b></p>
+       <p class="card-text"><b>- Colorimetria</b></p>
+       <p class="card-text"><b>- Selección de Base de Maquillaje</b></p>
+        <p class="card-text"><b>- Maquillaje para Problemas de la Piel</b></p>
+        <p class="card-text"><b>- Maquillaje de Cejas</b></p>
+        <p class="card-text"><b>- Maquillaje Ojos</b></p>
+        <p class="card-text"><b>- Maquillaje de Labios</b></p>
+        <p class="card-text"><b>- Maquillaje Natural</b></p>
+        <p class="card-text"><b>- Maquillaje para Ocasiones Especiales</b></p>
+        <p class="card-text"><b>- Errores a Evitar</b></p>
+       
+       </div>
+       <div class="modal-footer"> <!-- PIE -->
+       <button class="btn btn-default btn btn-primary btn-lg" type="button" data-dismiss="modal">Cerrar </button>
+       </div>
+     </div>
+   </div>
+</div>
+
+<div role="dialog" tabindex="-1" class="modal fade" id="modal-peinadoPro" style="max-width:600px;margin-right:auto;margin-left:auto;">
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">    
+       <div class="modal-header"> <!-- CABECERA -->
+       
+       <h4 class="text-center modal-title">PEINADO PROFESIONAL</h4>
+       </div>
+       <div class="modal-body"> <!-- CUERPO DEL MENSAJE -->
+       <img class="card-img-top" src="assets/img/peinadoimg.png" alt="">
+       <p class="card-text"><b>Aprende a moldear tu cabello de manera profesional</b></p>
+       </div>
+       <div class="modal-footer"> <!-- PIE -->
+       <button class="btn btn-default btn btn-primary btn-lg" type="button" data-dismiss="modal">Cerrar </button>
+       </div>
+     </div>
+   </div>
+</div>
+
 
           <h1 class="my-4">Cursos</h1>
           <div class="list-group">
@@ -50,10 +100,10 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="assets/img/autoteens.jpg" alt=""></a>
+                <a href="#" data-toggle="modal" data-target="#modal-autoMakeUp"><img class="card-img-top" src="assets/img/autoteens.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">Automaquillaje Teens</a>
+                    <a href="#" data-toggle="modal" data-target="#modal-autoMakeUp">Automaquillaje Teens</a>
                   </h4>
                   <h5>CUPO LIMITADO!</h5>
                   <h6>Inicio: 30 Abril</h6>
@@ -61,7 +111,6 @@
                   <p class="card-text"><b>- Tipo de rostro y piel</b></p>
                   <p class="card-text"><b>- Colorimetria</b></p>
                   <p class="card-text"><b>- Maquillaje base</b></p>
-                  <p class="card-text"><b>- y más</b></p>
                   <p class="card-text"></p>
                 </div>
                 
@@ -70,10 +119,10 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="assets/img/peinadoimg.png" alt=""></a>
+                <a href="#" data-toggle="modal" data-target="#modal-peinadoPro"><img class="card-img-top" src="assets/img/peinadoimg.png" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">Peinado Profesional</a>
+                    <a href="#" data-toggle="modal" data-target="#modal-peinadoPro">Peinado Profesional</a>
                   </h4>
                   <h6>Inicio: 24 Abril</h6>
                   <p></p>
@@ -85,27 +134,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="assets/img/autoteens.jpg" alt=""></a>
-                <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#">Automaquillaje Teens</a>
-                  </h4>
-                  <h5>CUPO LIMITADO!</h5>
-                  <h6>Inicio: 30 Abril</h6>
-                  <p class="card-text"><b>Duración: 3 dias</b></p>
-                  <p class="card-text"><b>- Tipo de rostro y piel</b></p>
-                  <p class="card-text"><b>- Colorimetria</b></p>
-                  <p class="card-text"><b>- Maquillaje base</b></p>
-                  <p class="card-text"><b>- y más</b></p>
-                  <p class="card-text"></p>
-                </div>
-                
-              </div>
-            </div>
-
-          </div>
+            
           <!-- /.row -->
 
         </div>
