@@ -46,32 +46,96 @@
           </div>
 
           <div class="row">
-
-            <div class="col-lg-4 col-md-6 mb-4">
+           
+             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="assets/img/facial.jpg" alt=""></a>
+                <img class="card-img-top" src="assets/img/serv6.jpg" alt="">
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">Facial</a>
+                    <h4>Maquillaje Profesional</h4>
                   </h4>
-                  <h5>Facial Limpieza Profunda</h5>
+                </div>
+              </div>
+            </div>
+           
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <img class="card-img-top" src="assets/img/serv3.png" alt="">
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <h4>Depilaciones</h4>
+                  </h4>
                 </div>
               </div>
             </div>
             
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="assets/img/rosy.jpg" alt=""></a>
+                <img class="card-img-top" src="assets/img/serv5.png" alt="">
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">Tratamiento Reductivo</a>
+                    <h4>Consultoria de Imagen</h4>
                   </h4>
-                  <h5>Reafirma tu silueta</h5>
                 </div>
               </div>
             </div>
 
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <img class="card-img-top" src="assets/img/facial.jpg" alt="">
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <h4>Faciales</h4>
+                  </h4>
+                </div>
+              </div>
+            </div>
             
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <img class="card-img-top" src="assets/img/serv2.jpg" alt="">
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <h4>Delineado De Cejas</h4>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <img class="card-img-top" src="assets/img/rosy.jpg" alt="">
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <h4>Tratamiento Reductivo</h4>
+                  </h4>
+                  
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <img class="card-img-top" src="assets/img/serv1.png" alt="">
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <h4>Pedicura</h4>
+                  </h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <img class="card-img-top" src="assets/img/serv4.png" alt="">
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <h4>Efecto de Color</h4>
+                  </h4>
+                </div>
+              </div>
+            </div>
+
 
           </div>
           <!-- /.row -->
