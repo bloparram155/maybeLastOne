@@ -2,78 +2,64 @@
     <!-- Page Content -->
     <div class="container">
 
-      <div class="row">
-
-        <div class="col-lg-3">
-          
-            <!--modales-->
+      <!--modales-->
   
-  <div role="dialog" tabindex="-1" class="modal fade" id="modal-autoMakeUp" style="max-width:600px;margin-right:auto;margin-left:auto;">
-   <div class="modal-dialog" role="document">
-     <div class="modal-content">    
-       <div class="modal-header"> <!-- CABECERA -->
-       
-       <h4 class="text-center modal-title">AUTOMAQUILLAJE TEENS</h4>
-       </div>
-       <div class="modal-body"> <!-- CUERPO DEL MENSAJE -->
-       <img class="card-img-top" src="assets/img/autoteens.jpg" alt="">
-       <p class="card-text"><b>Duración: 3 dias</b></p>
-       <p class="card-text"><b>- Tipo de rostro y piel</b></p>
-       <p class="card-text"><b>- Colorimetria</b></p>
-       <p class="card-text"><b>- Selección de Base de Maquillaje</b></p>
-        <p class="card-text"><b>- Maquillaje para Problemas de la Piel</b></p>
-        <p class="card-text"><b>- Maquillaje de Cejas</b></p>
-        <p class="card-text"><b>- Maquillaje Ojos</b></p>
-        <p class="card-text"><b>- Maquillaje de Labios</b></p>
-        <p class="card-text"><b>- Maquillaje Natural</b></p>
-        <p class="card-text"><b>- Maquillaje para Ocasiones Especiales</b></p>
-        <p class="card-text"><b>- Errores a Evitar</b></p>
-       
-       </div>
-       <div class="modal-footer"> <!-- PIE -->
-       <button class="btn btn-default btn btn-primary btn-lg" type="button" data-dismiss="modal">Cerrar </button>
-       </div>
-     </div>
-   </div>
-</div>
-
-<div role="dialog" tabindex="-1" class="modal fade" id="modal-peinadoPro" style="max-width:600px;margin-right:auto;margin-left:auto;">
-   <div class="modal-dialog" role="document">
-     <div class="modal-content">    
-       <div class="modal-header"> <!-- CABECERA -->
-       
-       <h4 class="text-center modal-title">PEINADO PROFESIONAL</h4>
-       </div>
-       <div class="modal-body"> <!-- CUERPO DEL MENSAJE -->
-       <img class="card-img-top" src="assets/img/peinadoimg.png" alt="">
-       <p class="card-text"><b>Aprende a moldear tu cabello de manera profesional</b></p>
-       </div>
-       <div class="modal-footer"> <!-- PIE -->
-       <button class="btn btn-default btn btn-primary btn-lg" type="button" data-dismiss="modal">Cerrar </button>
-       </div>
-     </div>
-   </div>
-</div>
-
-
-          <h1 class="my-4">Cursos</h1>
-          <div class="list-group">
-            <a href="cursos.html" class="list-group-item">Cursos</a>
-            <a href="Promos.html" class="list-group-item">Promociones</a>
-            <a href="servicios.html" class="list-group-item">Servicios</a>
-            <a href="galeria.html" class="list-group-item">Galeria</a>
+          <div role="dialog" tabindex="-1" class="modal fade" id="modal-autoMakeUp" style="max-width:600px;margin-right:auto;margin-left:auto;">
+             <div class="modal-dialog" role="document">
+               <div class="modal-content">    
+                 <div class="modal-header"> <!-- CABECERA -->
+                 
+                 <h4 class="text-center modal-title">AUTOMAQUILLAJE TEENS</h4>
+                 </div>
+                 <div class="modal-body"> <!-- CUERPO DEL MENSAJE -->
+                 <img class="card-img-top" src="assets/img/autoteens.jpg" alt="">
+                 <p class="card-text"><b>Duración: 3 dias</b></p>
+                 <p class="card-text"><b>- Tipo de rostro y piel</b></p>
+                 <p class="card-text"><b>- Colorimetria</b></p>
+                 <p class="card-text"><b>- Selección de Base de Maquillaje</b></p>
+                  <p class="card-text"><b>- Maquillaje para Problemas de la Piel</b></p>
+                  <p class="card-text"><b>- Maquillaje de Cejas</b></p>
+                  <p class="card-text"><b>- Maquillaje Ojos</b></p>
+                  <p class="card-text"><b>- Maquillaje de Labios</b></p>
+                  <p class="card-text"><b>- Maquillaje Natural</b></p>
+                  <p class="card-text"><b>- Maquillaje para Ocasiones Especiales</b></p>
+                  <p class="card-text"><b>- Errores a Evitar</b></p>
+                 
+                 </div>
+                 <div class="modal-footer"> <!-- PIE -->
+                 <button class="btn btn-default btn btn-primary btn-lg" type="button" data-dismiss="modal">Cerrar </button>
+                 </div>
+               </div>
+             </div>
           </div>
 
-        </div>
-        <!-- /.col-lg-3 -->
+          <div role="dialog" tabindex="-1" class="modal fade" id="modal-peinadoPro" style="max-width:600px;margin-right:auto;margin-left:auto;">
+             <div class="modal-dialog" role="document">
+               <div class="modal-content">    
+                 <div class="modal-header"> <!-- CABECERA -->
+                 
+                 <h4 class="text-center modal-title">PEINADO PROFESIONAL</h4>
+                 </div>
+                 <div class="modal-body"> <!-- CUERPO DEL MENSAJE -->
+                 <img class="card-img-top" src="assets/img/peinadoimg.png" alt="">
+                 <p class="card-text"><b>Aprende a moldear tu cabello de manera profesional</b></p>
+                 </div>
+                 <div class="modal-footer"> <!-- PIE -->
+                 <button class="btn btn-default btn btn-primary btn-lg" type="button" data-dismiss="modal">Cerrar </button>
+                 </div>
+               </div>
+             </div>
+          </div>
+      <div class="row">
 
-        <div class="col-lg-9">
+      
+        <div class="col-lg-9 offset-1">
 
-          <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+          <div id="carousel" class="carousel slide my-4" data-ride="carousel">
             <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
